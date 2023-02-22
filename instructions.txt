@@ -20,4 +20,4 @@ fichier index.js
 
 ajouter bouton supprimer tout 
 
-faire un controle qui vérifie si le bouton n'existe pas créer le bouton sinon non 
+condition si > 2 tasks donc toggle btn supprAll

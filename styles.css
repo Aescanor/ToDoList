@@ -114,11 +114,40 @@ li{
 
 /* DOM elements create via JS   */
 
+/* bouton de suppr par élément:  */
 button.btnSuppr{
     width: 125px;
     height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
     font-size: 1.2rem;
     font-weight: 800;
     color: red;
 }
 
+
+
+.container-Btn-Supp-All{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+button.btnSupprAll{
+    visibility: hidden;
+    width: 150px;
+    height: 35px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: red;
+}
+
+button.btnSupprAll:hover{
+    background: orange;
+    font-weight: 800;
+    
+}

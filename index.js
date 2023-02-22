@@ -134,23 +134,29 @@ addTaskButton.addEventListener("click", () => {
         btnSuppr.remove()
     })
     
-    // 5.Clear input :
+    // 5.Clear taskInput :
     taskInput.value = ""
 
     // 6 - Button btnSupprAll:
 
-    let btnSupprAll = document.createElement("button")
-    btnSupprAll.classList ="btnSupprAll"
-    btnSupprAll.textContent = "Suppr All"
-    btnSupprAll.style.width = "200px"
-    btnSupprAll.style.height = "35px"
+        // 6.a déclaration du btn :
+        let btnSupprAll = document.querySelector("button.btnSupprAll")
 
-    // function existbtnSupprAll(){
+        // 6.b function toggle du btn :
+        function togglebtnSupprAll(){
+    
+            return(newLi ? btnSupprAll.style.visibility ="visible" : btnSupprAll.style.visibility ="hidden")
+    
+        }
+        togglebtnSupprAll()
+    
+    
+        // 6.c - function de suppression de tous les newli (tasks)
+    
+        btnSupprAll.addEventListener("click", () =>{
 
-    // }
+            let allTasks = document.querySelectorAll(...newLi)
 
-    // function supprAllTasks(){
-
-    // }
-
+            allTasks.remove()
+        })
 })
