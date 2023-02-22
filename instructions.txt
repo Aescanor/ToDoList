@@ -21,3 +21,11 @@ fichier index.js
 ajouter bouton supprimer tout 
 
 condition si > 2 tasks donc toggle btn supprAll
+
+
+fonction deleteAll : 
+
+supprimer le cotenu de ul 
+supprimer le button 
+
+voir pour un confirm au click 
