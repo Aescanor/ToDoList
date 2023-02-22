@@ -1,0 +1,23 @@
+TP - TODOLIST : 
+
+fichier index.html 
+1 - créer un input
+2 - créer un ul 
+3- créer un bouton 
+
+! Notions de Javascript abordées createElement, remove, appendChild() ... ! 
+
+Features : 
+fichier index.js
+1-ajouter un status en cours 
+
+        créer 2 checkboxs : 
+        système de toggle switch on/off 
+
+2-terminé
+3-supprimer la tâche
+
+
+ajouter bouton supprimer tout 
+
+faire un controle qui vérifie si le bouton n'existe pas créer le bouton sinon non 
