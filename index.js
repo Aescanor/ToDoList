@@ -120,8 +120,10 @@ addTaskButton.addEventListener("click", () => {
     let btnSuppr = document.createElement("button");
     // Attribution d'une classe :
     btnSuppr.className = "btnSuppr";
+    btnSuppr.setAttribute("alt","bouton de suppression d'une tâche" );
+    btnSuppr.title ="supprimer une tâche";
     // Attribution du contenu:
-    btnSuppr.textContent = "Supprimer";
+    btnSuppr.textContent = "-";
 
 
     // 4.b - Ajout dans le DOM :
@@ -154,7 +156,7 @@ addTaskButton.addEventListener("click", () => {
 
     btnSupprAll.addEventListener("click", () => {
 
-        // vide le contnu de la lsite taskList:
+        // vide le contenu de la liste taskList:
         taskList.innerHTML = "";
 
         // retire le bouton btnSupprAll:

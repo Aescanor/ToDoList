@@ -79,12 +79,18 @@ button.addTask{
     width: fit-content;
     margin: 12px auto;
     padding: 1rem;
-    font-size: 1.1rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
     font-weight: 800;
+    color: var(--fontColor);
 }
 
 button.addTask:hover{
-    background: green;
+    color: green;
+    transform: scale(1.5);
+    transition: all 1s ease-in-out;
+
 }
 
 ul.tasksList{
@@ -118,15 +124,21 @@ li{
 button.btnSuppr{
     width: 125px;
     height: 40px;
-    border: 2px solid black;
-    border-radius: 5px;
-    font-size: 1.2rem;
+    background: none;
+    border: 2px none;
+    font-size: 2rem;
     font-weight: 800;
-    color: red;
+    color: black;
 }
 
+button.btnSuppr:hover{
+    color: royalblue;
+    transform: scale(2);
+    transition: all 1s ease-in-out;
+    
+}
 
-
+/* bouton Suppr-All:  */
 .container-Btn-Supp-All{
     width: 100%;
     display: flex;
@@ -137,17 +149,19 @@ button.btnSuppr{
 button.btnSupprAll{
     visibility: hidden;
     width: 150px;
-    height: 35px;
+    height: 50px;
     margin: 10px;
-    border: 2px solid black;
+    background: none;
+    border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 500;
-    color: red;
+    color: var(--fontColor);
 }
 
 button.btnSupprAll:hover{
-    background: orange;
-    font-weight: 800;
+    color: var(--colorOne);
+    transform: scale(1.5);
+    transition: all 1s ease-in-out;
     
 }
